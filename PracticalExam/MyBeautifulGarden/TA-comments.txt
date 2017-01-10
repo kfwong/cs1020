@@ -1,0 +1,18 @@
+Good, O(N^4) algo
+You have good command of the language, but you made the solution (code) longer than 
+necessary
+
+pre-/post-conds -5
+var scope / redundant instance vars -2
+  rowCount colCount
+modularity -3
+  can further abstract some sub-problems and solve them in another method, makes 
+your solution easy to understand at one glance, and makes each method cohesive
+redundant code -3
+  lines 32-34
+  lines 58,59 - negate condition and avoid trivial continue block
+sloppy control flow -6
+  lines 42,43,74-78 - check bounds properly instead of relying on exceptions
+  lines 60-73 - use labelled break instead
+  (or return k-1, if you implemented finding num of diff square sizes for a given 
+start pt to another method)

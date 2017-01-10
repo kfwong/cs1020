@@ -1,0 +1,25 @@
+1. Correctness (35/70)
+	a. Input (10/10): correct
+	b. Output (10/10): correct
+	c. Correct maximum points (15/50):
+		- Able to select the correct processor (0/15)
+		- Able to determine the finishing time of each order (5/15): correct 
+for those printed orders
+		- Able to process the orders in	the correct order (10/10)
+		- Able to use the queue	efficiently (linear number of queue 
+operations) (0/10): still using array list to solve the main part of problem
+
+2. Programming Style (25/30):
+	a. Meaningful Comments (5/10)
+		- Pre- and Post- conditions (0/5): no pre and post condition
+		- Other Comments (5/5): good
+
+	b. Modularity (10/10)
+
+	c. Proper Indentation (5/5)
+
+	d. Meaningful Identifiers (5/5): good
+
+3. Compilation Error: no
+
+Total: 60/100
